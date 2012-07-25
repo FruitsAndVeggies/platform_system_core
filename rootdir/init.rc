@@ -52,9 +52,6 @@ loglevel 3
     mkdir /cache 0770 system cache
     mkdir /config 0500 root root
 
-    # Make init.d (Test)
-    mkdir /etc/init.d 0755 root root
-
     # Directory for putting things only root should see.
     mkdir /mnt/secure 0700 root root
 
